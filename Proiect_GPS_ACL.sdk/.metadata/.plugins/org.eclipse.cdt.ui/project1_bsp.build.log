@@ -1,0 +1,594 @@
+11:03:24 **** Build of project project1_bsp ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_3/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_1/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/PmodACL2_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/PmodACL2_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/PmodWIFI_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/PmodWIFI_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/sdps_v3_1/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v3_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/standalone_v6_1/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v6_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/uartlite_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/uartlite_v3_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_3/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling coresightps_dcc"
+arm-none-eabi-ar: creating ../../../lib/libxil.a
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling ddrps"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling devcfg"
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling emacps"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_1/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling gpiops"
+"Running Make libs in ps7_cortexa9_0/libsrc/PmodACL2_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/PmodACL2_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling PmodACL2..."
+"Running Make libs in ps7_cortexa9_0/libsrc/PmodWIFI_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/PmodWIFI_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling PmodWIFI..."
+In file included from ./DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h:44:0,
+                 from ./DEIPcK/utility/fpga/System.h:64,
+                 from ./DEIPcK/utility/System.h:54,
+                 from ./DEIPcK/utility/deIP.h:59,
+                 from ../../../include/DEIPcK.h:64,
+                 from DEIPcK/DEIPcK.cpp:54:
+./DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/../../wf_customize.h:50:0: warning: "INLINE" redefined
+ #define INLINE
+ ^
+In file included from ./DEIPcK/utility/fpga/System.h:62:0,
+                 from ./DEIPcK/utility/System.h:54,
+                 from ./DEIPcK/utility/deIP.h:59,
+                 from ../../../include/DEIPcK.h:64,
+                 from DEIPcK/DEIPcK.cpp:54:
+../../../include/xil_io.h:94:0: note: this is the location of the previous definition
+ #define INLINE inline
+ ^
+In file included from DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h:44:0,
+                 from DEIPcK/utility/fpga/System.h:64,
+                 from DEIPcK/utility/System.h:54,
+                 from DEIPcK/utility/deIP.h:59,
+                 from DEIPcK/DEIPcK.h:64,
+                 from DEIPcK/TCPServer.cpp:51:
+DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/../../wf_customize.h:50:0: warning: "INLINE" redefined
+ #define INLINE
+ ^
+In file included from DEIPcK/utility/fpga/System.h:62:0,
+                 from DEIPcK/utility/System.h:54,
+                 from DEIPcK/utility/deIP.h:59,
+                 from DEIPcK/DEIPcK.h:64,
+                 from DEIPcK/TCPServer.cpp:51:
+../../../include/xil_io.h:94:0: note: this is the location of the previous definition
+ #define INLINE inline
+ ^
+In file included from DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h:44:0,
+                 from DEIPcK/utility/fpga/System.h:64,
+                 from DEIPcK/utility/System.h:54,
+                 from DEIPcK/utility/deIP.h:59,
+                 from DEIPcK/DEIPcK.h:64,
+                 from DEIPcK/TCPSocket.cpp:51:
+DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/../../wf_customize.h:50:0: warning: "INLINE" redefined
+ #define INLINE
+ ^
+In file included from DEIPcK/utility/fpga/System.h:62:0,
+                 from DEIPcK/utility/System.h:54,
+                 from DEIPcK/utility/deIP.h:59,
+                 from DEIPcK/DEIPcK.h:64,
+                 from DEIPcK/TCPSocket.cpp:51:
+../../../include/xil_io.h:94:0: note: this is the location of the previous definition
+ #define INLINE inline
+ ^
+In file included from DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h:44:0,
+                 from DEIPcK/utility/fpga/System.h:64,
+                 from DEIPcK/utility/System.h:54,
+                 from DEIPcK/utility/deIP.h:59,
+                 from DEIPcK/DEIPcK.h:64,
+                 from DEIPcK/UDPServer.cpp:51:
+DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/../../wf_customize.h:50:0: warning: "INLINE" redefined
+ #define INLINE
+ ^
+In file included from DEIPcK/utility/fpga/System.h:62:0,
+                 from DEIPcK/utility/System.h:54,
+                 from DEIPcK/utility/deIP.h:59,
+                 from DEIPcK/DEIPcK.h:64,
+                 from DEIPcK/UDPServer.cpp:51:
+../../../include/xil_io.h:94:0: note: this is the location of the previous definition
+ #define INLINE inline
+ ^
+In file included from DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h:44:0,
+                 from DEIPcK/utility/fpga/System.h:64,
+                 from DEIPcK/utility/System.h:54,
+                 from DEIPcK/utility/deIP.h:59,
+                 from DEIPcK/DEIPcK.h:64,
+                 from DEIPcK/UDPSocket.cpp:51:
+DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/../../wf_customize.h:50:0: warning: "INLINE" redefined
+ #define INLINE
+ ^
+In file included from DEIPcK/utility/fpga/System.h:62:0,
+                 from DEIPcK/utility/System.h:54,
+                 from DEIPcK/utility/deIP.h:59,
+                 from DEIPcK/DEIPcK.h:64,
+                 from DEIPcK/UDPSocket.cpp:51:
+../../../include/xil_io.h:94:0: note: this is the location of the previous definition
+ #define INLINE inline
+ ^
+In file included from DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h:44:0,
+                 from DEIPcK/utility/fpga/System.h:64,
+                 from DEIPcK/utility/System.h:54,
+                 from DEIPcK/utility/deIP.h:59,
+                 from DEIPcK/utility/DHCP.c:52:
+DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/../../wf_customize.h:50:0: warning: "INLINE" redefined
+ #define INLINE
+ ^
+In file included from DEIPcK/utility/fpga/System.h:62:0,
+                 from DEIPcK/utility/System.h:54,
+                 from DEIPcK/utility/deIP.h:59,
+                 from DEIPcK/utility/DHCP.c:52:
+../../../include/xil_io.h:94:0: note: this is the location of the previous definition
+ #define INLINE inline
+ ^
+In file included from DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h:44:0,
+                 from DEIPcK/utility/fpga/System.h:64,
+                 from DEIPcK/utility/System.h:54,
+                 from DEIPcK/utility/deIP.h:59,
+                 from DEIPcK/utility/DNS.c:53:
+DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/../../wf_customize.h:50:0: warning: "INLINE" redefined
+ #define INLINE
+ ^
+In file included from DEIPcK/utility/fpga/System.h:62:0,
+                 from DEIPcK/utility/System.h:54,
+                 from DEIPcK/utility/deIP.h:59,
+                 from DEIPcK/utility/DNS.c:53:
+../../../include/xil_io.h:94:0: note: this is the location of the previous definition
+ #define INLINE inline
+ ^
+In file included from DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h:44:0,
+                 from DEIPcK/utility/fpga/System.h:64,
+                 from DEIPcK/utility/System.h:54,
+                 from DEIPcK/utility/deIP.h:59,
+                 from DEIPcK/utility/HeapMgr.c:51:
+DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/../../wf_customize.h:50:0: warning: "INLINE" redefined
+ #define INLINE
+ ^
+In file included from DEIPcK/utility/fpga/System.h:62:0,
+                 from DEIPcK/utility/System.h:54,
+                 from DEIPcK/utility/deIP.h:59,
+                 from DEIPcK/utility/HeapMgr.c:51:
+../../../include/xil_io.h:94:0: note: this is the location of the previous definition
+ #define INLINE inline
+ ^
+In file included from DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h:44:0,
+                 from DEIPcK/utility/fpga/System.h:64,
+                 from DEIPcK/utility/System.h:54,
+                 from DEIPcK/utility/deIP.h:59,
+                 from DEIPcK/utility/ICMP.c:57:
+DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/../../wf_customize.h:50:0: warning: "INLINE" redefined
+ #define INLINE
+ ^
+In file included from DEIPcK/utility/fpga/System.h:62:0,
+                 from DEIPcK/utility/System.h:54,
+                 from DEIPcK/utility/deIP.h:59,
+                 from DEIPcK/utility/ICMP.c:57:
+../../../include/xil_io.h:94:0: note: this is the location of the previous definition
+ #define INLINE inline
+ ^
+In file included from DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h:44:0,
+                 from DEIPcK/utility/fpga/System.h:64,
+                 from DEIPcK/utility/System.h:54,
+                 from DEIPcK/utility/deIP.h:59,
+                 from DEIPcK/utility/InternetLayer.c:53:
+DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/../../wf_customize.h:50:0: warning: "INLINE" redefined
+ #define INLINE
+ ^
+In file included from DEIPcK/utility/fpga/System.h:62:0,
+                 from DEIPcK/utility/System.h:54,
+                 from DEIPcK/utility/deIP.h:59,
+                 from DEIPcK/utility/InternetLayer.c:53:
+../../../include/xil_io.h:94:0: note: this is the location of the previous definition
+ #define INLINE inline
+ ^
+In file included from DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h:44:0,
+                 from DEIPcK/utility/fpga/System.h:64,
+                 from DEIPcK/utility/System.h:54,
+                 from DEIPcK/utility/deIP.h:59,
+                 from DEIPcK/utility/IPStack.c:54:
+DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/../../wf_customize.h:50:0: warning: "INLINE" redefined
+ #define INLINE
+ ^
+In file included from DEIPcK/utility/fpga/System.h:62:0,
+                 from DEIPcK/utility/System.h:54,
+                 from DEIPcK/utility/deIP.h:59,
+                 from DEIPcK/utility/IPStack.c:54:
+../../../include/xil_io.h:94:0: note: this is the location of the previous definition
+ #define INLINE inline
+ ^
+In file included from DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h:44:0,
+                 from DEIPcK/utility/fpga/System.h:64,
+                 from DEIPcK/utility/System.h:54,
+                 from DEIPcK/utility/deIP.h:59,
+                 from DEIPcK/utility/LinkLayer.c:53:
+DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/../../wf_customize.h:50:0: warning: "INLINE" redefined
+ #define INLINE
+ ^
+In file included from DEIPcK/utility/fpga/System.h:62:0,
+                 from DEIPcK/utility/System.h:54,
+                 from DEIPcK/utility/deIP.h:59,
+                 from DEIPcK/utility/LinkLayer.c:53:
+../../../include/xil_io.h:94:0: note: this is the location of the previous definition
+ #define INLINE inline
+ ^
+In file included from DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h:44:0,
+                 from DEIPcK/utility/fpga/System.h:64,
+                 from DEIPcK/utility/System.h:54,
+                 from DEIPcK/utility/deIP.h:59,
+                 from DEIPcK/utility/SNTPv4.c:53:
+DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/../../wf_customize.h:50:0: warning: "INLINE" redefined
+ #define INLINE
+ ^
+In file included from DEIPcK/utility/fpga/System.h:62:0,
+                 from DEIPcK/utility/System.h:54,
+                 from DEIPcK/utility/deIP.h:59,
+                 from DEIPcK/utility/SNTPv4.c:53:
+../../../include/xil_io.h:94:0: note: this is the location of the previous definition
+ #define INLINE inline
+ ^
+In file included from ./DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h:44:0,
+                 from ./DEIPcK/utility/fpga/System.h:64,
+                 from ./DEIPcK/utility/System.h:54,
+                 from ./DEIPcK/utility/deIP.h:59,
+                 from DEIPcK/utility/fpga/System.c:53,
+                 from DEIPcK/utility/System.c:54:
+./DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/../../wf_customize.h:50:0: warning: "INLINE" redefined
+ #define INLINE
+ ^
+In file included from ./DEIPcK/utility/fpga/System.h:62:0,
+                 from ./DEIPcK/utility/System.h:54,
+                 from ./DEIPcK/utility/deIP.h:59,
+                 from DEIPcK/utility/fpga/System.c:53,
+                 from DEIPcK/utility/System.c:54:
+../../../include/xil_io.h:94:0: note: this is the location of the previous definition
+ #define INLINE inline
+ ^
+In file included from DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h:44:0,
+                 from DEIPcK/utility/fpga/System.h:64,
+                 from DEIPcK/utility/System.h:54,
+                 from DEIPcK/utility/deIP.h:59,
+                 from DEIPcK/utility/TCP.c:51:
+DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/../../wf_customize.h:50:0: warning: "INLINE" redefined
+ #define INLINE
+ ^
+In file included from DEIPcK/utility/fpga/System.h:62:0,
+                 from DEIPcK/utility/System.h:54,
+                 from DEIPcK/utility/deIP.h:59,
+                 from DEIPcK/utility/TCP.c:51:
+../../../include/xil_io.h:94:0: note: this is the location of the previous definition
+ #define INLINE inline
+ ^
+In file included from DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h:44:0,
+                 from DEIPcK/utility/fpga/System.h:64,
+                 from DEIPcK/utility/System.h:54,
+                 from DEIPcK/utility/deIP.h:59,
+                 from DEIPcK/utility/TCPRFC793.c:51:
+DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/../../wf_customize.h:50:0: warning: "INLINE" redefined
+ #define INLINE
+ ^
+In file included from DEIPcK/utility/fpga/System.h:62:0,
+                 from DEIPcK/utility/System.h:54,
+                 from DEIPcK/utility/deIP.h:59,
+                 from DEIPcK/utility/TCPRFC793.c:51:
+../../../include/xil_io.h:94:0: note: this is the location of the previous definition
+ #define INLINE inline
+ ^
+In file included from DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h:44:0,
+                 from DEIPcK/utility/fpga/System.h:64,
+                 from DEIPcK/utility/System.h:54,
+                 from DEIPcK/utility/deIP.h:59,
+                 from DEIPcK/utility/TCPStateMachine.c:51:
+DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/../../wf_customize.h:50:0: warning: "INLINE" redefined
+ #define INLINE
+ ^
+In file included from DEIPcK/utility/fpga/System.h:62:0,
+                 from DEIPcK/utility/System.h:54,
+                 from DEIPcK/utility/deIP.h:59,
+                 from DEIPcK/utility/TCPStateMachine.c:51:
+../../../include/xil_io.h:94:0: note: this is the location of the previous definition
+ #define INLINE inline
+ ^
+In file included from DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h:44:0,
+                 from DEIPcK/utility/fpga/System.h:64,
+                 from DEIPcK/utility/System.h:54,
+                 from DEIPcK/utility/deIP.h:59,
+                 from DEIPcK/utility/UDP.c:52:
+DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/../../wf_customize.h:50:0: warning: "INLINE" redefined
+ #define INLINE
+ ^
+In file included from DEIPcK/utility/fpga/System.h:62:0,
+                 from DEIPcK/utility/System.h:54,
+                 from DEIPcK/utility/deIP.h:59,
+                 from DEIPcK/utility/UDP.c:52:
+../../../include/xil_io.h:94:0: note: this is the location of the previous definition
+ #define INLINE inline
+ ^
+In file included from ./DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h:44:0,
+                 from ./DEIPcK/utility/fpga/System.h:64,
+                 from ./DEIPcK/utility/System.h:54,
+                 from ./DEIPcK/utility/deIP.h:59,
+                 from ../../../include/DEIPcK.h:64,
+                 from DEWFck/DEWFcK.cpp:56:
+./DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/../../wf_customize.h:50:0: warning: "INLINE" redefined
+ #define INLINE
+ ^
+In file included from ./DEIPcK/utility/fpga/System.h:62:0,
+                 from ./DEIPcK/utility/System.h:54,
+                 from ./DEIPcK/utility/deIP.h:59,
+                 from ../../../include/DEIPcK.h:64,
+                 from DEWFck/DEWFcK.cpp:56:
+../../../include/xil_io.h:94:0: note: this is the location of the previous definition
+ #define INLINE inline
+ ^
+In file included from MRF24G/../DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h:44:0,
+                 from MRF24G/../DEIPcK/utility/fpga/System.h:64,
+                 from MRF24G/../DEIPcK/utility/System.h:54,
+                 from MRF24G/../DEIPcK/utility/deIP.h:59,
+                 from MRF24G/MRF24GAdaptor.h:61,
+                 from MRF24G/MRF24GAdaptor.c:52:
+MRF24G/../DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/../../wf_customize.h:50:0: warning: "INLINE" redefined
+ #define INLINE
+ ^
+In file included from MRF24G/../DEIPcK/utility/fpga/System.h:62:0,
+                 from MRF24G/../DEIPcK/utility/System.h:54,
+                 from MRF24G/../DEIPcK/utility/deIP.h:59,
+                 from MRF24G/MRF24GAdaptor.h:61,
+                 from MRF24G/MRF24GAdaptor.c:52:
+../../../include/xil_io.h:94:0: note: this is the location of the previous definition
+ #define INLINE inline
+ ^
+In file included from ../../../include/MRF24G/../DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h:44:0,
+                 from ../../../include/MRF24G/../DEIPcK/utility/fpga/System.h:64,
+                 from ../../../include/MRF24G/../DEIPcK/utility/System.h:54,
+                 from MRF24G/utility/fpga/DEMRF24G.cpp:54,
+                 from MRF24G/DEMRF24G.cpp:55:
+../../../include/MRF24G/../DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/../../wf_customize.h:50:0: warning: "INLINE" redefined
+ #define INLINE
+ ^
+In file included from ../../../include/MRF24G/../DEIPcK/utility/fpga/System.h:62:0,
+                 from ../../../include/MRF24G/../DEIPcK/utility/System.h:54,
+                 from MRF24G/utility/fpga/DEMRF24G.cpp:54,
+                 from MRF24G/DEMRF24G.cpp:55:
+../../../include/xil_io.h:94:0: note: this is the location of the previous definition
+ #define INLINE inline
+ ^
+In file included from MRF24G/utility/fpga/../../../DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h:44:0,
+                 from MRF24G/utility/fpga/../../../DEIPcK/utility/fpga/System.h:64,
+                 from MRF24G/utility/fpga/../../../DEIPcK/utility/System.h:54,
+                 from MRF24G/utility/fpga/wf_eint_stub.c:47,
+                 from MRF24G/utility/wf_eint_stub.c:45:
+MRF24G/utility/fpga/../../../DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/../../wf_customize.h:50:0: warning: "INLINE" redefined
+ #define INLINE
+ ^
+In file included from ././xgpio_l.h:87:0,
+                 from ././xgpio.h:125,
+                 from MRF24G/utility/fpga/wf_eint_stub.c:46,
+                 from MRF24G/utility/wf_eint_stub.c:45:
+../../../include/xil_io.h:94:0: note: this is the location of the previous definition
+ #define INLINE inline
+ ^
+In file included from MRF24G/utility/fpga/../../../DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h:44:0,
+                 from MRF24G/utility/fpga/../../../DEIPcK/utility/fpga/System.h:64,
+                 from MRF24G/utility/fpga/../../../DEIPcK/utility/System.h:54,
+                 from MRF24G/utility/fpga/../../../DEIPcK/utility/deIP.h:59,
+                 from MRF24G/utility/fpga/../../MRF24GAdaptor.h:61,
+                 from MRF24G/utility/fpga/wf_event_stub.c:33,
+                 from MRF24G/utility/wf_event_stub.c:34:
+MRF24G/utility/fpga/../../../DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/../../wf_customize.h:50:0: warning: "INLINE" redefined
+ #define INLINE
+ ^
+In file included from MRF24G/utility/fpga/../../../DEIPcK/utility/fpga/System.h:62:0,
+                 from MRF24G/utility/fpga/../../../DEIPcK/utility/System.h:54,
+                 from MRF24G/utility/fpga/../../../DEIPcK/utility/deIP.h:59,
+                 from MRF24G/utility/fpga/../../MRF24GAdaptor.h:61,
+                 from MRF24G/utility/fpga/wf_event_stub.c:33,
+                 from MRF24G/utility/wf_event_stub.c:34:
+../../../include/xil_io.h:94:0: note: this is the location of the previous definition
+ #define INLINE inline
+ ^
+In file included from MRF24G/utility/fpga/../../../DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h:44:0,
+                 from MRF24G/utility/fpga/../../../DEIPcK/utility/fpga/System.h:64,
+                 from MRF24G/utility/fpga/../../../DEIPcK/utility/System.h:54,
+                 from MRF24G/utility/fpga/wf_gpio_stub.c:45,
+                 from MRF24G/utility/wf_gpio_stub.c:47:
+MRF24G/utility/fpga/../../../DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/../../wf_customize.h:50:0: warning: "INLINE" redefined
+ #define INLINE
+ ^
+In file included from MRF24G/utility/fpga/../../../DEIPcK/utility/fpga/System.h:62:0,
+                 from MRF24G/utility/fpga/../../../DEIPcK/utility/System.h:54,
+                 from MRF24G/utility/fpga/wf_gpio_stub.c:45,
+                 from MRF24G/utility/wf_gpio_stub.c:47:
+../../../include/xil_io.h:94:0: note: this is the location of the previous definition
+ #define INLINE inline
+ ^
+In file included from MRF24G/utility/fpga/../../../DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h:44:0,
+                 from MRF24G/utility/fpga/../../../DEIPcK/utility/fpga/System.h:64,
+                 from MRF24G/utility/fpga/../../../DEIPcK/utility/System.h:54,
+                 from MRF24G/utility/fpga/wf_spi_stub.c:47,
+                 from MRF24G/utility/wf_spi_stub.c:47:
+MRF24G/utility/fpga/../../../DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/../../wf_customize.h:50:0: warning: "INLINE" redefined
+ #define INLINE
+ ^
+In file included from MRF24G/utility/fpga/../../../DEIPcK/utility/fpga/System.h:62:0,
+                 from MRF24G/utility/fpga/../../../DEIPcK/utility/System.h:54,
+                 from MRF24G/utility/fpga/wf_spi_stub.c:47,
+                 from MRF24G/utility/wf_spi_stub.c:47:
+../../../include/xil_io.h:94:0: note: this is the location of the previous definition
+ #define INLINE inline
+ ^
+In file included from MRF24G/utility/fpga/../../../DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h:44:0,
+                 from MRF24G/utility/fpga/../../../DEIPcK/utility/fpga/System.h:64,
+                 from MRF24G/utility/fpga/../../../DEIPcK/utility/System.h:54,
+                 from MRF24G/utility/fpga/wf_timer_stub.c:46,
+                 from MRF24G/utility/wf_timer_stub.c:46:
+MRF24G/utility/fpga/../../../DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/../../wf_customize.h:50:0: warning: "INLINE" redefined
+ #define INLINE
+ ^
+In file included from MRF24G/utility/fpga/../../../DEIPcK/utility/fpga/System.h:62:0,
+                 from MRF24G/utility/fpga/../../../DEIPcK/utility/System.h:54,
+                 from MRF24G/utility/fpga/wf_timer_stub.c:46,
+                 from MRF24G/utility/wf_timer_stub.c:46:
+../../../include/xil_io.h:94:0: note: this is the location of the previous definition
+ #define INLINE inline
+ ^
+In file included from MRF24G/utility/fpga/../../../DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h:44:0,
+                 from MRF24G/utility/fpga/../../../DEIPcK/utility/fpga/System.h:64,
+                 from MRF24G/utility/fpga/../../../DEIPcK/utility/System.h:54,
+                 from MRF24G/utility/fpga/wf_eint_stub.c:47:
+MRF24G/utility/fpga/../../../DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/../../wf_customize.h:50:0: warning: "INLINE" redefined
+ #define INLINE
+ ^
+In file included from ././xgpio_l.h:87:0,
+                 from ././xgpio.h:125,
+                 from MRF24G/utility/fpga/wf_eint_stub.c:46:
+../../../include/xil_io.h:94:0: note: this is the location of the previous definition
+ #define INLINE inline
+ ^
+In file included from MRF24G/utility/fpga/../../../DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h:44:0,
+                 from MRF24G/utility/fpga/../../../DEIPcK/utility/fpga/System.h:64,
+                 from MRF24G/utility/fpga/../../../DEIPcK/utility/System.h:54,
+                 from MRF24G/utility/fpga/../../../DEIPcK/utility/deIP.h:59,
+                 from MRF24G/utility/fpga/../../MRF24GAdaptor.h:61,
+                 from MRF24G/utility/fpga/wf_event_stub.c:33:
+MRF24G/utility/fpga/../../../DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/../../wf_customize.h:50:0: warning: "INLINE" redefined
+ #define INLINE
+ ^
+In file included from MRF24G/utility/fpga/../../../DEIPcK/utility/fpga/System.h:62:0,
+                 from MRF24G/utility/fpga/../../../DEIPcK/utility/System.h:54,
+                 from MRF24G/utility/fpga/../../../DEIPcK/utility/deIP.h:59,
+                 from MRF24G/utility/fpga/../../MRF24GAdaptor.h:61,
+                 from MRF24G/utility/fpga/wf_event_stub.c:33:
+../../../include/xil_io.h:94:0: note: this is the location of the previous definition
+ #define INLINE inline
+ ^
+In file included from MRF24G/utility/fpga/../../../DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h:44:0,
+                 from MRF24G/utility/fpga/../../../DEIPcK/utility/fpga/System.h:64,
+                 from MRF24G/utility/fpga/../../../DEIPcK/utility/System.h:54,
+                 from MRF24G/utility/fpga/wf_gpio_stub.c:45:
+MRF24G/utility/fpga/../../../DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/../../wf_customize.h:50:0: warning: "INLINE" redefined
+ #define INLINE
+ ^
+In file included from MRF24G/utility/fpga/../../../DEIPcK/utility/fpga/System.h:62:0,
+                 from MRF24G/utility/fpga/../../../DEIPcK/utility/System.h:54,
+                 from MRF24G/utility/fpga/wf_gpio_stub.c:45:
+../../../include/xil_io.h:94:0: note: this is the location of the previous definition
+ #define INLINE inline
+ ^
+In file included from MRF24G/utility/fpga/../../../DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h:44:0,
+                 from MRF24G/utility/fpga/../../../DEIPcK/utility/fpga/System.h:64,
+                 from MRF24G/utility/fpga/../../../DEIPcK/utility/System.h:54,
+                 from MRF24G/utility/fpga/wf_spi_stub.c:47:
+MRF24G/utility/fpga/../../../DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/../../wf_customize.h:50:0: warning: "INLINE" redefined
+ #define INLINE
+ ^
+In file included from MRF24G/utility/fpga/../../../DEIPcK/utility/fpga/System.h:62:0,
+                 from MRF24G/utility/fpga/../../../DEIPcK/utility/System.h:54,
+                 from MRF24G/utility/fpga/wf_spi_stub.c:47:
+../../../include/xil_io.h:94:0: note: this is the location of the previous definition
+ #define INLINE inline
+ ^
+In file included from MRF24G/utility/fpga/../../../DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h:44:0,
+                 from MRF24G/utility/fpga/../../../DEIPcK/utility/fpga/System.h:64,
+                 from MRF24G/utility/fpga/../../../DEIPcK/utility/System.h:54,
+                 from MRF24G/utility/fpga/wf_timer_stub.c:46:
+MRF24G/utility/fpga/../../../DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/../../wf_customize.h:50:0: warning: "INLINE" redefined
+ #define INLINE
+ ^
+In file included from MRF24G/utility/fpga/../../../DEIPcK/utility/fpga/System.h:62:0,
+                 from MRF24G/utility/fpga/../../../DEIPcK/utility/System.h:54,
+                 from MRF24G/utility/fpga/wf_timer_stub.c:46:
+../../../include/xil_io.h:94:0: note: this is the location of the previous definition
+ #define INLINE inline
+ ^
+In file included from ../../../include/MRF24G/../DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h:44:0,
+                 from ../../../include/MRF24G/../DEIPcK/utility/fpga/System.h:64,
+                 from ../../../include/MRF24G/../DEIPcK/utility/System.h:54,
+                 from MRF24G/utility/fpga/DEMRF24G.cpp:54:
+../../../include/MRF24G/../DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/../../wf_customize.h:50:0: warning: "INLINE" redefined
+ #define INLINE
+ ^
+In file included from ../../../include/MRF24G/../DEIPcK/utility/fpga/System.h:62:0,
+                 from ../../../include/MRF24G/../DEIPcK/utility/System.h:54,
+                 from MRF24G/utility/fpga/DEMRF24G.cpp:54:
+../../../include/xil_io.h:94:0: note: this is the location of the previous definition
+ #define INLINE inline
+ ^
+"Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling qspips"
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling scugic"
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/sdps_v3_1/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v3_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling sdps"
+"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v6_1/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v6_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling standalone"
+"Running Make libs in ps7_cortexa9_0/libsrc/uartlite_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/uartlite_v3_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling uartlite"
+"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling uartps"
+"Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling usbps"
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling xadcps"
+'Finished building libraries'
+
+11:03:53 Build Finished (took 29s.529ms)
+

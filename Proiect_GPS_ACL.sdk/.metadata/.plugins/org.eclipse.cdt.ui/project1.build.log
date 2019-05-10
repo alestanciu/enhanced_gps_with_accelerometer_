@@ -1,0 +1,33 @@
+09:36:40 **** Auto Build of configuration Debug for project project1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building target: project1.elf'
+'Invoking: ARM v7 g++ linker'
+arm-none-eabi-g++ -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../project1_bsp/ps7_cortexa9_0/lib -o "project1.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+./src/main.o: In function `StartACL2_1()':
+D:\Users\Project_GPS\Proiect_GPS_ACL\Proiect_GPS_ACL.sdk\project1\Debug/../src/ACL2.h:56: undefined reference to `ACL2_begin(PmodACL2*, unsigned long, unsigned long)'
+D:\Users\Project_GPS\Proiect_GPS_ACL\Proiect_GPS_ACL.sdk\project1\Debug/../src/ACL2.h:57: undefined reference to `ACL2_reset(PmodACL2*)'
+D:\Users\Project_GPS\Proiect_GPS_ACL\Proiect_GPS_ACL.sdk\project1\Debug/../src/ACL2.h:59: undefined reference to `ACL2_configure(PmodACL2*)'
+D:\Users\Project_GPS\Proiect_GPS_ACL\Proiect_GPS_ACL.sdk\project1\Debug/../src/ACL2.h:65: undefined reference to `ACL2_getStatus(PmodACL2*)'
+D:\Users\Project_GPS\Proiect_GPS_ACL\Proiect_GPS_ACL.sdk\project1\Debug/../src/ACL2.h:67: undefined reference to `ACL2_getSample(PmodACL2*)'
+D:\Users\Project_GPS\Proiect_GPS_ACL\Proiect_GPS_ACL.sdk\project1\Debug/../src/ACL2.h:70: undefined reference to `ACL2_DataToG(PmodACL2*, int)'
+D:\Users\Project_GPS\Proiect_GPS_ACL\Proiect_GPS_ACL.sdk\project1\Debug/../src/ACL2.h:71: undefined reference to `ACL2_DataToG(PmodACL2*, int)'
+D:\Users\Project_GPS\Proiect_GPS_ACL\Proiect_GPS_ACL.sdk\project1\Debug/../src/ACL2.h:72: undefined reference to `ACL2_DataToG(PmodACL2*, int)'
+./src/main.o: In function `DemoInitialize()':
+D:\Users\Project_GPS\Proiect_GPS_ACL\Proiect_GPS_ACL.sdk\project1\Debug/../src/ACL2.h:84: undefined reference to `ACL2_begin(PmodACL2*, unsigned long, unsigned long)'
+D:\Users\Project_GPS\Proiect_GPS_ACL\Proiect_GPS_ACL.sdk\project1\Debug/../src/ACL2.h:87: undefined reference to `ACL2_reset(PmodACL2*)'
+D:\Users\Project_GPS\Proiect_GPS_ACL\Proiect_GPS_ACL.sdk\project1\Debug/../src/ACL2.h:91: undefined reference to `ACL2_configure(PmodACL2*)'
+./src/main.o: In function `DemoRun()':
+D:\Users\Project_GPS\Proiect_GPS_ACL\Proiect_GPS_ACL.sdk\project1\Debug/../src/ACL2.h:101: undefined reference to `ACL2_getStatus(PmodACL2*)'
+D:\Users\Project_GPS\Proiect_GPS_ACL\Proiect_GPS_ACL.sdk\project1\Debug/../src/ACL2.h:105: undefined reference to `ACL2_getSample(PmodACL2*)'
+D:\Users\Project_GPS\Proiect_GPS_ACL\Proiect_GPS_ACL.sdk\project1\Debug/../src/ACL2.h:110: undefined reference to `ACL2_DataToG(PmodACL2*, int)'
+D:\Users\Project_GPS\Proiect_GPS_ACL\Proiect_GPS_ACL.sdk\project1\Debug/../src/ACL2.h:111: undefined reference to `ACL2_DataToG(PmodACL2*, int)'
+D:\Users\Project_GPS\Proiect_GPS_ACL\Proiect_GPS_ACL.sdk\project1\Debug/../src/ACL2.h:112: undefined reference to `ACL2_DataToG(PmodACL2*, int)'
+./src/main.o: In function `DemoCleanup()':
+D:\Users\Project_GPS\Proiect_GPS_ACL\Proiect_GPS_ACL.sdk\project1\Debug/../src/ACL2.h:121: undefined reference to `ACL2_end(PmodACL2*)'
+collect2.exe: error: ld returned 1 exit status
+make: *** [project1.elf] Error 1
+
+09:36:42 Build Finished (took 2s.29ms)
+
